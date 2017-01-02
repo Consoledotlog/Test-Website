@@ -1,0 +1,107 @@
+http://www.w3schools.com/tags/default.asp
+http://www.w3schools.com/colors/colors_names.asp
+
+CSS STYLES:
+
+<body style="background-color:lightgrey;">
+</body>
+
+
+EXAMPLE OF INTERNAL CSS:
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+
+
+
+EXTERNAL CSS: Use this type of code to link to the CSS file
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+COLORS:
+background-color:;
+color:;
+-----
+Any 8 character hex number:  #800000
+http://htmlcolorcodes.com/
+Or an RGB number:  255,0,255
+
+
+FONTS:
+font-family:;
+-----
+verdana;
+courier;
+
+
+FONT SIZE:
+font-size:100%;
+font-size:100px;
+
+
+TEXT ALIGNMENT:
+text-align:;
+-----
+center
+left
+right
+
+
+BORDERS:
+border: 1px solid black;
+
+
+PADDING:
+padding : 30px;
+
+
+MARGIN:
+margin: 20px;
+
+
+IDs:
+<p id="p01">this text will have that specific id information</p>
+CSS:
+#p01 {
+	color: blue
+}
+
+
+
+Class Attributes:
+<p class="error"> I am different</p>
+CSS:
+p.error {
+	color: red;
+}
+
+
+
+LIST ITEMS:
+list-style-type: ;
+disc;   sets to a bullet (default)
+circle;   set to a circle
+square;   sets to a square
+none;   list items will not be marked
+-----
+type="1"   sets list to numbers by default
+type="A"   sets list to by numbered by uppercase letters
+type="a"   sets list to by numbered by lowercase letters
+type="I"   sets list to uppercase roman numbers
+type="i"   sets list to lowercase roman numbers
+
+
+
+
+VERY SIMILAR TO ID TAGS
+div.classname {
+	background-color:grey;
+	margin:20px;
+}
